@@ -1,0 +1,46 @@
+/* Global styles */
+body {
+  font-family: 'Press Start 2P', cursive;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Container styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Button styles */
+button {
+  font-family: 'Press Start 2P', cursive;
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+/* Result container styles */
+#resultContainer {
+  background-color: #444;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Number and description styles */
+#numberDisplay, #descriptionDisplay {
+  font-weight: bold;
+  color: yellow;
+}
